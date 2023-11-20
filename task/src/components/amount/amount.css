@@ -1,0 +1,114 @@
+.main_con {
+  width: 87.3%;
+  height: 450px;
+  top: 568px;
+  left: 200px;
+  background-color: #ffb653;
+  position: absolute;
+}
+.main_con .dropdown {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: -5%;
+  left: 50%;
+}
+.main_con h3 {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 80px;
+  margin-top: 45px;
+}
+.main_con span {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.amount {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  height: 56px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.25);
+  margin-left: 150px;
+  margin-top: 90px;
+}
+.amount input {
+  display: flex;
+  width: 220px;
+  padding: 0px 8px;
+  align-items: center;
+  gap: 4px;
+  border: none;
+}
+
+.amount svg {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: #ffb653;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.4);
+}
+.left_content .txt {
+  color: rgba(0, 0, 0, 0.57);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 225px;
+}
+
+.icon {
+  display: inline-flex;
+  width: 300px;
+  height: 52.8px;
+  padding: 0px 21.12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 13.2px;
+  background: #fff;
+  box-shadow: 0px 0px 2.64px 0px rgba(0, 0, 0, 0.25);
+  margin-left: 50%;
+  position: absolute;
+  top: 180px;
+}
+.icon img {
+  flex-shrink: 0;
+  display: flex;
+  width: 42px;
+  height: 42px;
+  padding: 3.4px 3.465px 3.2px 3.4px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+/* responsive for mobile */
